@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+    <link rel="stylesheet" href="https://kurokawa0430.github.io/portfollio-site/
+    css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Portfollio</title>
+</head>
+<body>
+    <header class="bg-dark">
+        <div class="container">
+            <div class="header">
+                <h1>Shuhei Kurokawa</h1>
+                <div class="header_menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#service">Service</a></li>
+                            <li><a href="#works">Works</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+         
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="about">
+                <h2 class="title">About</h2>
+                <div class="about_area">
+                    <div class="about_area-img">
+                       <img src="image/profile.jpg" alt="プロフィール画像">
+                    </div>
+                    <div class="about_area-decription">
+                        <div class="about_area-decription-text">
+                            <p>現在、通勤に片道２時間３０分かかっており、この状況を変えるためにプログラミング学習をはじめました。<br>大阪府にてWebエンジニアへの転職を目指しています。</p>
+                            <p>PHPやWordPressについても意欲的に学習し、フロントエンドエンジニアとしてのスキルを磨いていきます。</p>
+
+                        </div>
+                       
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="servise">
+                <h2 class="title">Servise</h2>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <h3>Codeing</h3>
+                        <div class="servise-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <p class="text">
+                       HTML CSS Javascriptでのコーディングが可能です。保守運用しやすいコーディングを心がけています。
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <h3>レスポンシブ対応</h3>
+                        <div class="servise-icon">
+                            <i class="fas fa-mobile"></i>
+                        </div>
+                        <p class="text">
+                       PC表示だけではなく、スマホやタブレットなどのさまざまな画面の大きさに対応します。
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+            <section id="works">
+                <h2 class="title">Works</h2>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <h3>サンプルサイト模写①</h3>
+                        <div class="works-img">
+                            <img src="image/mosya1.png" alt="サンプルサイト模写①画像">
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <h3>サンプルサイト模写②</h3>
+                        <div class="works-img">
+                            <img src="image/mosya2.png" alt="サンプルサイト模写②">
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </section>
+            <section id="contact">
+                <h2 class="title">Contact</h2>
+                <div class="form">
+                    <!-- class, action, methodを変更しないでください -->
+                    <form class="formrun" action="https://form.run/api/v1/r/4cd52qadxtrywwnl0j11dnu4" method="post">
+                        <!-- ↓自由に要素を追加・編集することができます -->
+                        <div class="form-contact">
+                        <label>お名前</label>
+                        <input name="お名前" type="text">
+                        </div>
+                    
+                        <div class="form-contact">
+                        <label>メールアドレス [必須]</label>
+                        <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+                        <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+                        </div>
+                    
+                        <div class="form-contact">
+                        <label>お問い合わせ [必須]</label>
+                        <textarea rows="10" name="お問い合わせ" data-formrun-required></textarea>
+                        <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+                        </div>
+                    
+                       
+                        <!-- ボット投稿をブロックするためのタグ -->
+                        <div class="_formrun_gotcha">
+                        <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                        <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                        <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+                        </div>
+                        <div class="btn">
+                        <button class="btn btn-dark" type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+                        </div>
+                    </form>
+                </div>
+
+            </section>
+        </div>
+
+
+
+    </main>
+
+   
+<footer class="bg-dark">
+    <p>&copy;Shuhei Kurokawa</p>
+</footer>
+
+    
+</body>
+</html>
